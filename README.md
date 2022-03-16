@@ -38,3 +38,8 @@ deno run https://raw.githubusercontent.com/merunga/cipher-cli/main/src/cipher.js
 deno run https://raw.githubusercontent.com/merunga/cipher-cli/main/src/cipher.js --decode --offset=23 "ebiil tloia"
 > hello world
 ```
+## Ejecutar tests
+
+```sh
+deno test
+```
