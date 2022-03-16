@@ -1,6 +1,6 @@
 import { assertEquals } from "https://deno.land/std@0.129.0/testing/asserts.ts";
 
-import * as cipher from '../src/lib.js';
+import * as cipher from './lib.js';
 
 Deno.test('encode: should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33', () => {
   assertEquals(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'HIJKLMNOPQRSTUVWXYZABCDEFG');
