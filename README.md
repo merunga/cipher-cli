@@ -1,6 +1,7 @@
 # cipher-cli
 
-Implementación de cipher como cli con deno
+Implementación de cipher como cli con deno, basado en el tradicional
+[cipher](https://github.com/Laboratoria/bootcamp/tree/main/projects/01-cipher)
 
 ### Prerrequisitos
 
