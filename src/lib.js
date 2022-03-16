@@ -1,3 +1,5 @@
+// tomado de https://github.com/lupomontero/cipher/blob/lupomontero/src/cipher.js
+
 const encodeChar = (offset, code) => String.fromCharCode(
   code >= 65 && code <= 65 + 26
     ? (code - 65 + offset) % 26 + 65
