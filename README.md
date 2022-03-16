@@ -13,6 +13,11 @@ Implementación de cipher como cli con deno, basado en el tradicional
 
 ```sh
 deno run cipher.js --encode --offset=23 "hello world"
+```
+
+Output:
+
+```sh
 > ebiil tloia
 ```
 
@@ -20,6 +25,11 @@ deno run cipher.js --encode --offset=23 "hello world"
 
 ```sh
 deno run cipher.js --decode --offset=23 "ebiil tloia"
+```
+
+Output:
+
+```sh
 > hello world
 ```
 
@@ -29,6 +39,11 @@ deno run cipher.js --decode --offset=23 "ebiil tloia"
 
 ```sh
 deno run https://raw.githubusercontent.com/merunga/cipher-cli/main/cipher.js --encode --offset=23 "hello world"
+```
+
+Output:
+
+```sh
 > ebiil tloia
 ```
 
@@ -36,6 +51,11 @@ deno run https://raw.githubusercontent.com/merunga/cipher-cli/main/cipher.js --e
 
 ```sh
 deno run https://raw.githubusercontent.com/merunga/cipher-cli/main/cipher.js --decode --offset=23 "ebiil tloia"
+```
+
+Output:
+
+```sh
 > hello world
 ```
 ## Ejecutar tests
