@@ -19,9 +19,8 @@ if (!args._.length) {
 }
 
 const action = args.encode ? cipher.encode : cipher.decode;
+const str = args._[0];
+const result = action(args.offset, str);
 
-args._.forEach((str) => {
-  const result = action(args.offset, str);
-  console.log(result);
-});
+console.log(result);
 
